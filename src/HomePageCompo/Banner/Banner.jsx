@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className="banner">
 
-            <Parallax strength={600} bgImage="https://i.ibb.co/YXm0zNm/Banner.jpg">
+            <Parallax strength={500} bgImage="https://i.ibb.co/YXm0zNm/Banner.jpg">
                 <div className="bannerContent">
                     <button>View Work</button>
                 </div>

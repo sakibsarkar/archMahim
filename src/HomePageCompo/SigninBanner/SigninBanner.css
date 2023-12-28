@@ -1,0 +1,34 @@
+.signinBanner {
+    width: 1300px;
+    margin: auto;
+    height: 350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.signinBanner h3 {
+    font-size: 30px;
+
+}
+
+.signinBanner p {
+    font-size: 20px;
+    width: 71%;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.signinBanner a {
+    background: #d39100;
+    padding: 9px 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}

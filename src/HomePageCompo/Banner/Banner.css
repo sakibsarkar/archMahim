@@ -1,11 +1,11 @@
 .banner {
-    height: 85vh;
+    height: 100vh;
 }
 
 
 /* paralax container */
 .react-parallax {
-    height: 100% !important;
+    height: 87% !important;
 }
 
 .react-parallax img {
@@ -30,21 +30,21 @@
 
 .react-parallax-content .bannerContent button {
     background: transparent;
-    border: 3px solid white;
+    border: 2px solid rgb(255, 255, 255);
     padding: 12px 15px;
     font-size: 21px;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     font-weight: 700;
-    transition: 0.3s;
+    transition: 0.5s;
 
 }
 
 .react-parallax-content .bannerContent button:hover {
-    background: #ffffff;
-    border: 3px solid rgb(255, 255, 255);
+    box-shadow: inset 150px 0 black;
+    border: 3px solid rgb(0, 0, 0);
     padding: 12px 15px;
     font-size: 21px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 }

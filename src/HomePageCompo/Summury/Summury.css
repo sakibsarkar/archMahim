@@ -1,0 +1,36 @@
+.summuryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 0 90px 0;
+
+}
+
+
+.summuryContainer p {
+    font-size: 25px;
+    width: 800px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+
+.summuryContainer .mediaIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.summuryContainer .mediaIcons a {
+    font-size: 25px;
+    color: rgb(98, 98, 98);
+    transition: 0.3s;
+}
+
+.summuryContainer .mediaIcons a:hover {
+    color: rgb(0, 0, 0);
+}

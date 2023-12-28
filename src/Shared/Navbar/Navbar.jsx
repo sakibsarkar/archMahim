@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -7,9 +7,9 @@ const Navbar = () => {
 
             <div className="navWrapper">
 
-                <div className="log">
-                    <img src="https://i.ibb.co/mHztTCN/EduLogo.png" alt="logo" />
-                </div>
+                <Link to={"/"} className="log">
+                    <img src="https://i.ibb.co/vHs7MVK/web-under.png" alt="logo" />
+                </Link>
 
                 <ul className="navLinks">
                     <li><NavLink to={"/"} className={"navlink"}>HOME</NavLink></li>

@@ -1,0 +1,50 @@
+.banner {
+    height: 85vh;
+}
+
+
+/* paralax container */
+.react-parallax {
+    height: 100% !important;
+}
+
+.react-parallax img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+/* paralax content box */
+.react-parallax-content {
+    height: 100%;
+    width: 100%;
+}
+
+.react-parallax-content .bannerContent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react-parallax-content .bannerContent button {
+    background: transparent;
+    border: 3px solid white;
+    padding: 12px 15px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+
+}
+
+.react-parallax-content .bannerContent button:hover {
+    background: #ffffff;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 12px 15px;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+
+}

@@ -1,0 +1,77 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    padding: 10px 0;
+    height: 98px;
+
+}
+
+nav .log img {
+    width: 170px;
+}
+
+.navWrapper {
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.navWrapper .navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+
+}
+
+.navlink {
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+
+.navlink::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2.63px;
+    background: rgb(233, 31, 31);
+    left: 0;
+    bottom: -7px;
+    transition: 0.3s;
+}
+
+.navlink:hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.63px;
+    left: 0;
+    bottom: -7px;
+}
+
+
+
+/* active link style */
+
+.navWrapper .navLinks li .active {
+    position: relative;
+}
+
+.navWrapper .navLinks li .active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.63px;
+    background: rgb(233, 31, 31);
+
+    left: 0;
+    bottom: -7px;
+
+}

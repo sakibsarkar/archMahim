@@ -76,3 +76,92 @@ nav .log img {
     bottom: -7px;
 
 }
+
+
+.drawer {
+    display: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.drawer img {
+    width: 100px;
+}
+
+.drawerLinks {
+    position: absolute;
+    background-color: red;
+    height: 100vh;
+    transition: 0.4s;
+    padding: 30px 0;
+    left: 0;
+    top: 0;
+    opacity: 0;
+
+
+}
+
+.drawerLinksContainer {
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.drawerLinks .active {
+    background-color: white;
+    color: red;
+}
+
+.drawerLinks a {
+    font-size: 25px;
+    color: white;
+    padding: 5px 15px;
+}
+
+
+.drawerLinksContainer {
+    position: relative;
+}
+
+.cross {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .navWrapper {
+        display: none;
+    }
+
+    nav {
+        height: 40px;
+        position: relative;
+    }
+
+    .drawer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1230px) {
+    .navWrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1650px) {
+    .navWrapper {
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1921px) {}

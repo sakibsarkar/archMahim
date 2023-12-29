@@ -153,4 +153,67 @@ footer .contactForm button:hover {
     background-color: #0d1622;
     color: white;
     padding: 20px 0;
+    text-align: center;
 }
+
+.footerBottom span {
+    color: #d39100;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+
+
+    .footerTop {
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px 20px 20px;
+        align-items: center;
+    }
+
+
+    .conactInfo>div .contactInfo {
+        width: 80vw;
+    }
+
+    footer .contactForm input {
+        width: 90vw;
+    }
+
+    footer .contactForm textarea {
+        width: 90vw;
+    }
+
+    .footerlinks {
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 1370px) {
+    .footerTop {
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+    }
+
+
+
+
+    .conactInfo>div .contactInfo {
+        width: 330px;
+    }
+
+    .footerlinks {
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 1921px) {}

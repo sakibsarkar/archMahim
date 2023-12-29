@@ -6,8 +6,9 @@ const MainLayout = () => {
     return (
         <div>
             <Navbar />
-            {/* <Outlet />
-            <Footer /> */}
+            {/* <Outlet /> */}
+            <div style={{ height: "100vh" }}></div>
+            <Footer />
         </div>
     );
 };

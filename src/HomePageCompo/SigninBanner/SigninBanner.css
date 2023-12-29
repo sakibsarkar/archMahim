@@ -32,3 +32,43 @@
     font-size: 20px;
     border-radius: 5px;
 }
+
+
+
+
+@media screen and (max-width: 640px) {
+    .signinBanner {
+        width: 96vw;
+    }
+
+    .summuryContainer {
+        width: 96vw;
+    }
+
+    .summuryContainer p {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .signinBanner h3 {
+        text-align: center;
+    }
+
+    .signinBanner p {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1320px) {
+    .signinBanner {
+        width: 96vw;
+    }
+
+    .summuryContainer {
+        width: 96vw;
+    }
+
+    .summuryContainer p {
+        width: 100% !important;
+    }
+}

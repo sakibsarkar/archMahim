@@ -1,0 +1,156 @@
+footer {
+    background-color: #070a0e;
+    padding: 100px 0 0 0;
+}
+
+
+.footerTop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 50px;
+    color: white;
+    padding: 0 0 50px 0;
+}
+
+.footerlinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footerlinks h1 {
+    color: #ffffff;
+}
+
+
+.footerlinks a {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    color: white;
+
+}
+
+.footerlinks a:hover {
+    text-decoration: underline;
+}
+
+
+.conactInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.conactInfo>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    gap: 20px;
+}
+
+.conactInfo>div .contactIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d39100;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    ;
+}
+
+.conactInfo>div .contactInfo {
+    display: flex;
+    width: 450px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conactInfo>div a {
+    color: white;
+}
+
+.conactInfo>div a:hover {
+
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+footer .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+footer .contactForm img {
+    width: 160px;
+}
+
+footer .contactForm input {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    width: 362px;
+    padding: 8px 9px;
+    color: white;
+
+}
+
+footer .contactForm textarea {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    width: 362px;
+    padding: 8px 9px;
+    resize: vertical;
+    min-height: 100px !important;
+
+    color: white;
+}
+
+footer .contactForm button {
+    background: white;
+    color: black;
+    border: 1px solid white;
+    padding: 4px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer .contactForm button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+.footerBottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1622;
+    color: white;
+    padding: 20px 0;
+}

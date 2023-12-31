@@ -1,0 +1,65 @@
+[
+    {
+        "prjectName": "Bed Room",
+        "title": "ELEVATE YOUR BEDROOM WITH <br/> OUR MODERN DESIGN",
+        "mainImg": "https://i.ibb.co/Sfv0zMF/bed-01.jpg",
+        "childImg": [
+            "https://i.ibb.co/pyjg1qK/bed-03.jpg",
+            "https://i.ibb.co/CvJJHkj/bed-02.jpg"
+        ]
+    },
+    {
+        "prjectName": "Living Room",
+        "title": "MAKE YOUR LIVING ROOM  WITH INNOVATIVE <br/> IDEAS AND STYLISH DESIGN",
+        "mainImg": "https://i.ibb.co/Drj4P7w/living-room-A.jpg",
+        "childImg": [
+            "https://i.ibb.co/vBC935j/living-room-A-01.jpg",
+            "https://i.ibb.co/0JN11GT/living-room-A-02.jpg"
+        ]
+    },
+    {
+        "prjectName": "Kitchen",
+        "title": "DESIGN YOUR KITCHEN <br/> WITH THE EXPERT",
+        "mainImg": "https://i.ibb.co/tPxDntK/kitchen-M.jpg",
+        "childImg": [
+            "https://i.ibb.co/wWdhtNy/kitchen-01.jpg",
+            "https://i.ibb.co/ZdrxSwv/kitchen-02.jpg"
+        ]
+    },
+    {
+        "prjectName": "Toilet",
+        "title": "PRECISE CONCEPT DESIGN FOR YOUR <br/> BATHROOM AND TOILET",
+        "mainImg": "https://i.ibb.co/b3N1CQY/Toilet-M.jpg",
+        "childImg": [
+            "https://i.ibb.co/Wn6LyRB/Toilet-01.jpg",
+            "https://i.ibb.co/KrqSRNJ/Toilet-02.jpg"
+        ]
+    },
+    {
+        "prjectName": "Duplex",
+        "title": "MAKE YOUR HOUSE WITH INNOVATIVE <br/> IDEAS AND STYLISH DESIGN",
+        "mainImg": "https://i.ibb.co/GkZXwTH/Duplex-M.jpg",
+        "childImg": [
+            "https://i.ibb.co/8jb0WMF/Duplex-01.jpg",
+            "https://i.ibb.co/Dt8Hqk6/Duplex-02.jpg"
+        ]
+    },
+    {
+        "prjectName": "Living Room",
+        "title": "MAKE YOUR LIVING ROOM  WITH INNOVATIVE <br/> IDEAS AND STYLISH DESIGN",
+        "mainImg": "https://i.ibb.co/4Ymqck3/living-room-M.jpg",
+        "childImg": [
+            "https://i.ibb.co/qW6cJLD/living-room-M-01.jpg",
+            "https://i.ibb.co/pZgwznw/living-room-M-02.jpg"
+        ]
+    },
+    {
+        "prjectName": "Office",
+        "title": "OFFICE DESIGN SOLUTION FOR <br/> YOUR BUSINESS",
+        "mainImg": "https://i.ibb.co/cCFYRPN/office-A.jpg",
+        "childImg": [
+            "https://i.ibb.co/4VhmWtr/office-01.jpg",
+            "https://i.ibb.co/x6N2kp4/office-02.jpg"
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+.home_projectContainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.mainImage {
+    height: 700px;
+    width: 100%;
+
+}
+
+.mainImage .projectContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #0d161e73;
+}
+
+.home_projectContainer .projectContent h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.home_projectContainer .react-parallax img {
+    height: 900px !important;
+}
+
+.home_projectContainer .react-parallax {
+    height: 700px !important;
+    overflow: hidden;
+}
+
+
+.home_projectContainer .projectContent a {
+    color: white;
+    border: 1px solid white;
+    padding: 6px 8px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.home_projectContainer .projectContent a:hover {
+    box-shadow: inset 0 40px white;
+    color: black;
+
+}
+
+
+.home_projectContainer .childImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.home_projectContainer .childImages .childImage {
+    width: 576px;
+    height: 576px;
+}
+
+.home_projectContainer .childImages .childImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (max-width: 460px) {
+    .home_projectContainer .childImages .childImage {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 750px) {
+    .home_projectContainer .childImages .childImage {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width:870px) {
+    .home_projectContainer .childImages .childImage {
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+@media screen and (min-width: 870px) and (max-width: 1240px) {
+    .home_projectContainer .childImages .childImage {
+        width: 400px;
+        height: 400px;
+    }
+
+
+}
+
+
+
+
+/* ----- project heading H1 responsive */
+
+@media screen and (max-width: 400px) {
+
+    .home_projectContainer .projectContent h1 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+
+    .home_projectContainer .projectContent h1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 760px) {
+
+    .home_projectContainer .projectContent h1 {
+        font-size: 26px;
+    }
+}

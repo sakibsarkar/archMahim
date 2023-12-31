@@ -50,7 +50,41 @@
 
 }
 
+.footerV2Links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.footerV2Links a {
+    font-size: 18px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fb {
+    color: #0866ff;
+}
+
+.yt {
+    color: #ff0000;
+}
+
+.insta {
+    color: #cd486b;
+}
+
+
+.twitter {
+    color: #1DA1F2;
+}
 
 @media screen and (max-width: 450px) {
     .footerV2 {

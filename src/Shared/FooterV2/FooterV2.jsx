@@ -1,8 +1,18 @@
 import "./FooterV2.css";
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const FooterV2 = () => {
     return (
         <footer className="footerV2">
+
+
+            <div className="footerV2Links">
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="fb"><FaFacebookF /></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="yt"><FaYoutube /></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="insta"><FaInstagram /></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="twitter"><FaTwitter /></a>
+            </div>
+
 
             <div>
                 <img src="https://i.ibb.co/vHs7MVK/web-under.png" alt="" />

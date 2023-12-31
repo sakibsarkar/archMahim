@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 const Summury = () => {
     return (
         <div className="summuryContainer">
-            <h2>CA & Design</h2>
+            <h2>cA & DESIGN</h2>
             <p>Is an architecture and inter design firm focused on creating great places to work, play and live</p>
 
 

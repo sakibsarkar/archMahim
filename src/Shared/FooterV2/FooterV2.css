@@ -1,0 +1,62 @@
+.footerV2 {
+    background-color: black;
+    display: none;
+    color: white;
+    gap: 18px;
+    padding: 22px 0;
+}
+
+.footerV2 img {
+    width: 150px;
+}
+
+.footerDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+
+.footerDetails .email {
+    width: 156px;
+}
+
+.footerDetails .addresss {
+    width: 55%;
+}
+
+.footerDetails .footerPhone {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+    margin: 0 0 5px 0;
+}
+
+
+.phoneNumbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.footerDetails a {
+    color: white;
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .footerV2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

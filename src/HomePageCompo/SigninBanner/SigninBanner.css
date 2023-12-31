@@ -1,6 +1,5 @@
 .signinBanner {
-    width: 1300px;
-    height: 350px;
+    width: fit-content;
     background-color: black;
     color: white;
     display: flex;
@@ -8,8 +7,9 @@
     align-items: center;
     gap: 20px;
     flex-direction: column;
-    margin: 100px auto;
-
+    margin: 50px auto;
+    padding: 21px 18px;
+    border-radius: 43px 0 43px 0;
 }
 
 .signinBanner h3 {
@@ -26,7 +26,7 @@
 }
 
 .signinBanner a {
-    background: #d39100;
+    background: #0074d3;
     padding: 9px 30px;
     color: white;
     font-size: 20px;
@@ -38,20 +38,15 @@
 
 @media screen and (max-width: 640px) {
     .signinBanner {
-        width: 96vw;
+        width: 75vw;
     }
 
     .summuryContainer {
         width: 96vw;
     }
-
-    .summuryContainer p {
-        width: 100% !important;
-        text-align: center;
-    }
-
     .signinBanner h3 {
         text-align: center;
+        font-size: 22px;
     }
 
     .signinBanner p {
@@ -60,9 +55,7 @@
 }
 
 @media screen and (min-width: 640px) and (max-width: 1320px) {
-    .signinBanner {
-        width: 96vw;
-    }
+
 
     .summuryContainer {
         width: 96vw;

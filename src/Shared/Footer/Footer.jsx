@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
     const year = new Date().getFullYear()
     return (
-        <footer>
+        <footer className="footerV1">
             <div className="footerTop">
                 <div className="footerlinks">
                     <h1>Keep conntected</h1>

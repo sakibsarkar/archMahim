@@ -4,7 +4,9 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 const Summury = () => {
     return (
         <div className="summuryContainer">
-            <p>Eastlake Studio is an architecture and interior design firm focused on creating great places to work, play and live.</p>
+            <h2>CA & Design</h2>
+            <p>Is an architecture and inter design firm focused on creating great places to work, play and live</p>
+
 
             <div className="mediaIcons">
                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FaFacebookF /></a>

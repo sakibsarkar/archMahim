@@ -16,6 +16,15 @@ const Navbar = () => {
         transition: "0.4s"
     }
 
+    const handleShowDrawer = () => {
+        setShowDrawer(true)
+        document.body.classList.add("noScroll")
+    }
+    const handleHideDrawer = () => {
+        setShowDrawer(false)
+        document.body.classList.remove("noScroll")
+    }
+
     return (
         <nav>
 
@@ -36,18 +45,18 @@ const Navbar = () => {
 
             <div className="drawer">
                 <img src="https://i.ibb.co/vHs7MVK/web-under.png" alt="logo" />
-                <RxHamburgerMenu onClick={() => setShowDrawer(true)} />
+                <RxHamburgerMenu onClick={handleShowDrawer} />
 
 
                 <div className="drawerLinks" style={showDrawer ? drawerLinstStyle : {}}>
                     {
                         showDrawer ?
                             <div className="drawerLinksContainer">
-                                <RxCross2 className="cross" onClick={() => setShowDrawer(false)} />
-                                <NavLink to={"/"} className={"drawerLink"} onClick={() => setShowDrawer(false)}>HOME</NavLink>
-                                <NavLink to={"/projects"} className={"drawerLink"} onClick={() => setShowDrawer(false)}>PROJECTS</NavLink>
-                                <NavLink to={"/contact"} className={"drawerLink"} onClick={() => setShowDrawer(false)}>CONTACT</NavLink>
-                                <NavLink to={"/about"} className={"drawerLink"} onClick={() => setShowDrawer(false)}>ABOUT</NavLink>
+                                <RxCross2 className="cross" onClick={handleHideDrawer} />
+                                <NavLink to={"/"} className={"drawerLink"} onClick={handleHideDrawer}>HOME</NavLink>
+                                <NavLink to={"/projects"} className={"drawerLink"} onClick={handleHideDrawer}>PROJECTS</NavLink>
+                                <NavLink to={"/contact"} className={"drawerLink"} onClick={handleHideDrawer}>CONTACT</NavLink>
+                                <NavLink to={"/about"} className={"drawerLink"} onClick={handleHideDrawer}>ABOUT</NavLink>
                             </div>
                             : ""
                     }

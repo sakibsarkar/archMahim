@@ -5,3 +5,9 @@
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+
+
+::selection {
+    background-color: black;
+    color: white;
+}

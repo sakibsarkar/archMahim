@@ -8,6 +8,8 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    background-color: #161b21;
+    position: relative;
 }
 
 
@@ -16,17 +18,34 @@
     height: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     position: relative;
     left: 67px;
     gap: 20px;
+    overflow: hidden;
 }
+
+
+.typography {
+    position: absolute;
+    font-size: 85px;
+    transform: rotate(270deg);
+    color: white;
+    right: -265px;
+    top: 286px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    animation: typography linear;
+    animation-timeline: scroll();
+}
+
+
 
 .bannerV2 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 62px;
+    font-size: 40px;
     color: white;
     transition: 0.4s;
 }
@@ -37,12 +56,7 @@
     -webkit-text-stroke: 1px white;
 }
 
-.bannerV2 h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 60px;
-}
+
 
 
 
@@ -84,21 +98,46 @@
 
 
 
+.bannerBottom {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bannerBottom h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.bannerBottom p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+
+
+
 @media screen and (max-width: 460px) {
     .bannerV2 {
-        background-position: -230px 0;
+        background-position: -177px 0;
     }
 
     .bannerV2 h1 {
-        font-size: 42px;
-    }
-
-    .bannerV2 h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .content {
-        left: 40px;
+        left: 20px;
+    }
+
+    .bannerV2 h2 {
+        font-size: 30px;
     }
 }
 
@@ -108,7 +147,11 @@
     }
 
     .bannerV2 h1 {
-        font-size: 42px;
+        font-size: 30px;
+    }
+
+    .content {
+        left: 20px;
     }
 
     .bannerV2 h2 {
@@ -116,4 +159,8 @@
     }
 }
 
-@media screen and (min-width: 1921px) {}
+@media screen and (max-width: 800px) {
+    .typography {
+        display: none;
+    }
+}

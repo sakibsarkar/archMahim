@@ -4,23 +4,10 @@
 
 
 /* paralax container */
-.react-parallax {
-    height: 100% !important;
-}
-
-.react-parallax img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-}
 
 /* paralax content box */
-.react-parallax-content {
-    height: 100%;
-    width: 100%;
-}
 
-.react-parallax-content .bannerContent {
+t .bannerContent {
     height: 100%;
     width: 100%;
     display: flex;
@@ -29,7 +16,7 @@
     background-color: #0d161e73;
 }
 
-.react-parallax-content .bannerContent button {
+.bannerContent button {
     background: transparent;
     border: 2px solid rgb(255, 255, 255);
     padding: 12px 15px;
@@ -41,7 +28,7 @@
 
 }
 
-.react-parallax-content .bannerContent button:hover {
+.bannerContent button:hover {
     box-shadow: inset 150px 0 black;
     border: 3px solid rgb(0, 0, 0);
     padding: 12px 15px;

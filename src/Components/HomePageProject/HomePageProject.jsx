@@ -10,15 +10,15 @@ const HomePageProject = ({ project }) => {
         <div className="home_projectContainer">
 
 
-            <div className="mainImage">
-                <Parallax strength={500} bgImage={mainImg}>
-                    <div className="projectContent">
-                        <h1 data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom">{newArrayTitle[0]}<br />{newArrayTitle[1]}</h1>
-                        <Link to={`/project/${project.id}`}>View More</Link>
-                    </div>
-                </Parallax>
-            </div>
+
+            <Parallax strength={400} bgImage={mainImg}>
+                <div className="projectContent">
+                    <h1 data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="1000">{newArrayTitle[0]}<br />{newArrayTitle[1]}</h1>
+                    <Link to={`/project/${project.id}`}>View More</Link>
+                </div>
+            </Parallax>
+
 
 
             <div className="childImages">

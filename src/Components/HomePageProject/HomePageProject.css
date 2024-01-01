@@ -9,14 +9,14 @@
 
 
 .mainImage {
-    height: 700px;
+
     width: 100%;
 
 }
 
-.mainImage .projectContent {
-    width: 100%;
-    height: 100%;
+.projectContent {
+    width: 100vw;
+    height: 790px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,12 +31,11 @@
 }
 
 
-.home_projectContainer .react-parallax img {
-    height: 900px !important;
-}
+/* .home_projectContainer .react-parallax img {
+    height: 800px !important;
+} */
 
 .home_projectContainer .react-parallax {
-    height: 700px !important;
     overflow: hidden;
 }
 
@@ -84,18 +83,11 @@
         height: 40vw;
     }
 
-    .mainImage {
-        height: 280px !important;
+    .projectContent {
+        height: 200px;
     }
 
-    .home_projectContainer .react-parallax img {
-        height: 400px !important;
-    }
 
-    .home_projectContainer .react-parallax {
-        height: 280px !important;
-        overflow: hidden;
-    }
 }
 
 @media screen and (min-width: 460px) and (max-width: 750px) {
@@ -104,17 +96,10 @@
         height: 200px;
     }
 
-    .mainImage {
-        height: 277px !important;
-    }
 
-    .home_projectContainer .react-parallax img {
-        height: 500px !important;
-    }
 
-    .home_projectContainer .react-parallax {
-        height: 277px !important;
-        overflow: hidden;
+    .projectContent {
+        height: 400px;
     }
 
 }
@@ -125,6 +110,10 @@
         height: 350px;
     }
 
+    .projectContent {
+        height: 400px;
+    }
+
 }
 
 @media screen and (min-width: 870px) and (max-width: 1240px) {
@@ -133,7 +122,9 @@
         height: 400px;
     }
 
-
+    .projectContent {
+        height: 500px;
+    }
 }
 
 

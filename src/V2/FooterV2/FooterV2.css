@@ -25,12 +25,13 @@
 
 .footerDetails .addresss {
     width: 55%;
+    line-height: 1.5;
 }
 
 .footerDetails .footerPhone {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 5px;
     margin: 0 0 5px 0;
 }
@@ -54,19 +55,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 3px;
 }
 
 .footerV2Links a {
     font-size: 18px;
     background-color: white;
-    width: 30px;
+    width: 25px;
     height: 30px;
-    border-radius: 50%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 3px;
 
+}
+
+.footerV2Links a:nth-child(even) {
+    position: relative;
+    top: -4px;
 }
 
 .fb {

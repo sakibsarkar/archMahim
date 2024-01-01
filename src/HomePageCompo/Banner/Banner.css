@@ -5,7 +5,7 @@
 
 /* paralax container */
 .react-parallax {
-    height: 87% !important;
+    height: 100% !important;
 }
 
 .react-parallax img {
@@ -26,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0d161e73;
 }
 
 .react-parallax-content .bannerContent button {

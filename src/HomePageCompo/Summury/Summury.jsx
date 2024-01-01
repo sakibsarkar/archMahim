@@ -5,7 +5,7 @@ const Summury = () => {
     return (
         <div className="summuryContainer">
             <h2>cA & DESIGN</h2>
-            <p>Is an architecture and inter design firm focused on creating great places to work, play and live</p>
+            <p>Is an architecture and interior design firm focused on creating great places to work, play and live</p>
 
 
             <div className="mediaIcons">

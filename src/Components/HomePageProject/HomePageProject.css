@@ -83,6 +83,19 @@
         width: 40vw;
         height: 40vw;
     }
+
+    .mainImage {
+        height: 280px !important;
+    }
+
+    .home_projectContainer .react-parallax img {
+        height: 400px !important;
+    }
+
+    .home_projectContainer .react-parallax {
+        height: 280px !important;
+        overflow: hidden;
+    }
 }
 
 @media screen and (min-width: 460px) and (max-width: 750px) {
@@ -90,6 +103,20 @@
         width: 200px;
         height: 200px;
     }
+
+    .mainImage {
+        height: 277px !important;
+    }
+
+    .home_projectContainer .react-parallax img {
+        height: 500px !important;
+    }
+
+    .home_projectContainer .react-parallax {
+        height: 277px !important;
+        overflow: hidden;
+    }
+
 }
 
 @media screen and (min-width: 750px) and (max-width:870px) {

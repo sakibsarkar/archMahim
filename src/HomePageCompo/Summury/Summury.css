@@ -9,6 +9,12 @@
 }
 
 
+.summuryContainer::selection {
+    background-color: black;
+    color: white;
+}
+
+
 .summuryContainer h2 {
     font-size: 21px;
 }

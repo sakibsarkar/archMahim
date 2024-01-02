@@ -1,6 +1,7 @@
 import "./HomePageProject.css";
 import { Parallax } from "react-parallax";
 import { Link } from "react-router-dom";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 const HomePageProject = ({ project }) => {
     const { prjectName, title, mainImg, childImg } = project
@@ -11,13 +12,17 @@ const HomePageProject = ({ project }) => {
 
 
 
-            <Parallax strength={400} bgImage={mainImg}>
+            <ParallaxBanner
+                layers={[
+                    { image: mainImg, speed: -30 },
+                ]}
+
+            >
                 <div className="projectContent">
-                    <h1 data-aos="fade-up"
-                        data-aos-anchor-placement="center-bottom" data-aos-duration="1000">{newArrayTitle[0]}<br />{newArrayTitle[1]}</h1>
+                    <h1>{newArrayTitle[0]}<br />{newArrayTitle[1]}</h1>
                     <Link to={`/project/${project.id}`}>View More</Link>
                 </div>
-            </Parallax>
+            </ParallaxBanner>
 
 
 

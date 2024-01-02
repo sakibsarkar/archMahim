@@ -2,6 +2,7 @@ import "./BannerV2.css";
 import { useEffect, useState } from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { useParallax } from "react-scroll-parallax";
 
 // ..
 
@@ -17,22 +18,32 @@ const BannerV2 = () => {
         }, 5000)
     }, [reRender])
 
+    const parallax = useParallax({
+        translateX: 100
+    });
+
+
+
+
     return (
         <div className="bannerV2">
-            <h3 className="typography">ARCHITECTURE</h3>
+            <h3 className="typography" >ARCHITECTURE</h3>
 
-            <div className="content" key={reRender}>
-                <h1 data-aos="fade-up" data-aos-duration="1000">We are making the best <br />possible use of the <br />available space</h1>
+            <div className="content" >
+                <h1 data-aos="fade-up" data-aos-duration="2000">We are making the best <br />possible use of the <br />available space</h1>
 
-                <Link data-aos="fade-up" data-aos-duration="1500">View More <IoIosArrowRoundForward className="arrow" /></Link>
-                <div className="bannerBottom" data-aos="fade-up" data-aos-duration="2300">
-                    <h2>
+                <Link ref={parallax.ref} data-aos="fade-up" data-aos-duration="2500">View More <IoIosArrowRoundForward className="arrow" /></Link>
+                <div className="bannerBottom" >
+                    <h2 data-aos="zoom-out-right" data-aos-easing="linear"
+                        data-aos-duration="1500">
                         Why choose us
                     </h2>
-                    <p data-aos="fade-up" data-aos-duration="3000">We work to an<br />extremely high standard<br />of <span>customer satisfaction</span></p>
+                    <p data-aos="fade-up"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">We work to an<br />extremely high standard<br />of <span>customer satisfaction</span></p>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

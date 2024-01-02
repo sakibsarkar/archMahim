@@ -2,8 +2,8 @@
     position: fixed;
     width: 20px;
     height: 20px;
-    background-color: rgb(0, 0, 0);
-    mix-blend-mode: multiply;
+    background-color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
     border-radius: 50%;
     z-index: 99;
     transition: 0.1s;

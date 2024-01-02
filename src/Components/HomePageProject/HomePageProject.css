@@ -22,12 +22,15 @@
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    background-color: #0d161e73;
+    position: relative;
+    z-index: 99;
+    background-color: #0d161e4d;
 }
 
 .home_projectContainer .projectContent h1 {
     text-align: center;
     color: white;
+
 }
 
 
@@ -35,9 +38,6 @@
     height: 800px !important;
 } */
 
-.home_projectContainer .react-parallax {
-    overflow: hidden;
-}
 
 
 .home_projectContainer .projectContent a {
@@ -46,6 +46,7 @@
     padding: 6px 8px;
     font-size: 20px;
     transition: 0.3s;
+
 }
 
 .home_projectContainer .projectContent a:hover {
